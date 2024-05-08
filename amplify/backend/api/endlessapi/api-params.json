@@ -1,0 +1,94 @@
+{
+    "paths": [
+        {
+            "name": "/mealplan",
+            "lambdaFunction": "mealplanservice",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/mealplan"
+        },
+        {
+            "name": "/recipe",
+            "lambdaFunction": "recipeservice",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/recipe"
+        },
+        {
+            "name": "/user",
+            "lambdaFunction": "userservice",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH"
+                ]
+            },
+            "policyResourceName": "/user"
+        }
+    ],
+    "resourceName": "endlessapi",
+    "apiName": "endlessapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "mealplanservice"
+        },
+        {
+            "lambdaFunction": "recipeservice"
+        },
+        {
+            "lambdaFunction": "userservice"
+        }
+    ],
+    "privacy": {
+        "auth": 3,
+        "unauth": 0,
+        "authRoleName": "amplify-endlesscmpe281-devmain-191353-authRole",
+        "unAuthRoleName": "amplify-endlesscmpe281-devmain-191353-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mealplanservice",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "recipeservice",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "userservice",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "f7f9fec5"
+}
