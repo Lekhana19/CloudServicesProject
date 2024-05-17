@@ -1,9 +1,9 @@
 # CMPE282 Cloud Services
 
 ## Team Members
-#### -Lekhana Gadde
-#### -Sahithi Kalakonda
-#### -Hemang Huria
+#### Lekhana Gadde (017461236)
+#### Sahithi Kalakonda (017478786)
+#### Hemang Huria
 
 #### Professor - Andrew Bond
 San Jose State University
