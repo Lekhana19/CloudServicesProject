@@ -3,11 +3,14 @@
 ## Team Members
 #### Lekhana Gadde (017461236)
 #### Sahithi Kalakonda (017478786)
-#### Hemang Huria
+#### Hemang Huria (016123146)
 
 #### Professor - Andrew Bond
 San Jose State University
 Software Engineering Department
+
+#### Demo Link - 
+https://drive.google.com/drive/folders/1wImzKlL8R3NDx_P6IXYeP6ETcy0fDelG?usp=sharing
 
 #### Architecture Diagram
 ![Architecture Diagram](https://github.com/Lekhana19/CloudServicesProject/blob/773faa761da531b8a926ca0ee607981d5444fccb/architecture.png)
